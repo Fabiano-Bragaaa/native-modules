@@ -15,6 +15,11 @@
     "jsSrcsDir": "specs",
     "android": {
       "javaPackageName": "com.nativelocalstorage"
+    },
+    "ios": {
+      "modulesProvider": {
+        "NativeLocalStorage": "RCTNativeLocalStorage"
+      }
     }
   },
   "dependencies": {
